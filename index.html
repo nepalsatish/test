@@ -1,0 +1,128 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <title>Test</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <link rel="stylesheet" type="text/css" media="screen" href="main.css" />
+    <link
+      href="https://fonts.googleapis.com/icon?family=Material+Icons"
+      rel="stylesheet"
+    />
+  </head>
+  <body>
+    <section class="main">
+      <div class="main__topBar">
+        <i class="material-icons">airplay</i>
+        <div class="main__topBarRight">
+          <span>HELP&nbsp;<i class="material-icons">help</i></span>
+          <i class="material-icons">notifications</i>
+          <i class="material-icons account_circle">account_circle</i>
+        </div>
+      </div>
+      <div class="main__space"></div>
+      <div class="main__body">
+        <div class="main__bodyLeft">
+          <p>
+            Lorem ipsum dolor sit amet, consectetur adipiscing elit. Proin sed
+            metus lobortis, sodales risus a, venenatis mauris. Quisque nulla
+            magna, eleifend eu aliquam non, euismod eget velit. Sed dignissim
+            malesuada dapibus. Maecenas nec commodo sem. Nulla facilisi. Proin
+            ut porta erat. Fusce in pulvinar mi. Sed fringilla odio nec elit
+            imperdiet rutrum. Aliquam tincidunt neque libero, ac sollicitudin
+            ligula maximus quis. Curabitur a nunc eu sapien cursus tempus.
+            Vestibulum commodo blandit nisi, ac vestibulum sem lacinia eu. Cras
+            nec erat eu lorem elementum commodo. Duis porta cursus laoreet.
+            Mauris egestas eu neque ac tempus. Etiam ullamcorper nibh imperdiet
+            efficitur suscipit. Sed porttitor diam dui, a lobortis purus
+            vestibulum sit amet. Suspendisse dictum vehicula velit a ultricies.
+            In volutpat pretium blandit. Nulla ac congue justo, ac vehicula
+            metus. Cras sed diam sed metus condimentum commodo. Aliquam maximus,
+            tortor et venenatis luctus, eros nunc aliquam enim, vel consectetur
+            nibh nisi a lorem. Aenean eu augue urna. Nullam rutrum arcu at
+            sapien finibus, at ornare ligula semper. Praesent sagittis
+            scelerisque ante eget elementum. In nec velit vestibulum, finibus
+            lorem nec, tincidunt sem. Proin ut odio at nibh placerat volutpat.
+            Quisque in eros purus. Pellentesque dictum lacinia nibh vitae
+            molestie. Nunc tempus tortor lacinia, viverra nulla et, semper nunc.
+            Quisque et sodales lorem. Donec vulputate at arcu et elementum. In
+            in libero vitae nisl porta malesuada. Nullam fermentum, odio sed
+            semper consectetur, nunc leo iaculis ligula, at sodales mi nulla
+            eget est. Maecenas interdum nibh magna, id vulputate odio sagittis
+            et. Curabitur lectus massa, condimentum et nulla quis, laoreet
+            fringilla arcu. Duis aliquet aliquam velit, sed pretium turpis
+            sodales sit amet. Donec lobortis libero eu arcu viverra, sit amet
+            semper nunc condimentum. In hac habitasse platea dictumst. Nunc quis
+            risus sit amet sapien vehicula iaculis. Proin varius tellus laoreet,
+            molestie orci sed, gravida dolor. Ut condimentum consequat erat non
+            efficitur. Maecenas scelerisque ullamcorper arcu ut fermentum. Donec
+            bibendum ac magna quis sodales. Sed sapien sapien, efficitur nec
+            dapibus quis, feugiat non magna. Nulla sodales varius dolor, ut
+            feugiat purus dignissim sed. Pellentesque nisl velit, lacinia quis
+            nisi non, maximus iaculis quam.
+          </p>
+        </div>
+        <div class="main__bodyMiddle"></div>
+        <div class="main__bodyRight" id="main__bodyRight">
+          <div class="main__bodyRightTopBar">
+            <span><i class="material-icons">apps</i>&nbsp;Apps</span>
+            <div class="main__bodyRightTopBarRight">
+              <i
+                class="material-icons btn"
+                title="Full Screen"
+                onClick="goFull()"
+                >fullscreen</i
+              >
+              <i
+                class="material-icons btn"
+                title="Close"
+                onClick="hideBodyRight()"
+                >close</i
+              >
+            </div>
+          </div>
+          <p>
+            Lorem ipsum dolor sit amet, consectetur adipiscing elit. Proin sed
+            metus lobortis, sodales risus a, venenatis mauris. Quisque nulla
+            magna, eleifend eu aliquam non, euismod eget velit. Sed dignissim
+            malesuada dapibus. Maecenas nec commodo sem. Nulla facilisi. Proin
+            ut porta erat. Fusce in pulvinar mi. Sed fringilla odio nec elit
+            imperdiet rutrum. Aliquam tincidunt neque libero, ac sollicitudin
+            ligula maximus quis. Curabitur a nunc eu sapien cursus tempus.
+            Vestibulum commodo blandit nisi, ac vestibulum sem lacinia eu. Cras
+            nec erat eu lorem elementum commodo. Duis porta cursus laoreet.
+            Mauris egestas eu neque ac tempus. Etiam ullamcorper nibh imperdiet
+            efficitur suscipit. Sed porttitor diam dui, a lobortis purus
+            vestibulum sit amet. Suspendisse dictum vehicula velit a ultricies.
+            In volutpat pretium blandit. Nulla ac congue justo, ac vehicula
+            metus. Cras sed diam sed metus condimentum commodo. Aliquam maximus,
+            tortor et venenatis luctus, eros nunc aliquam enim, vel consectetur
+            nibh nisi a lorem. Aenean eu augue urna. Nullam rutrum arcu at
+            sapien finibus, at ornare ligula semper. Praesent sagittis
+            scelerisque ante eget elementum. In nec velit vestibulum, finibus
+            lorem nec, tincidunt sem. Proin ut odio at nibh placerat volutpat.
+            Quisque in eros purus. Pellentesque dictum lacinia nibh vitae
+            molestie. Nunc tempus tortor lacinia, viverra nulla et, semper nunc.
+            Quisque et sodales lorem. Donec vulputate at arcu et elementum. In
+            in libero vitae nisl porta malesuada. Nullam fermentum, odio sed
+            semper consectetur, nunc leo iaculis ligula, at sodales mi nulla
+            eget est. Maecenas interdum nibh magna, id vulputate odio sagittis
+            et. Curabitur lectus massa, condimentum et nulla quis, laoreet
+            fringilla arcu. Duis aliquet aliquam velit, sed pretium turpis
+            sodales sit amet. Donec lobortis libero eu arcu viverra, sit amet
+            semper nunc condimentum. In hac habitasse platea dictumst. Nunc quis
+            risus sit amet sapien vehicula iaculis. Proin varius tellus laoreet,
+            molestie orci sed, gravida dolor. Ut condimentum consequat erat non
+            efficitur. Maecenas scelerisque ullamcorper arcu ut fermentum. Donec
+            bibendum ac magna quis sodales. Sed sapien sapien, efficitur nec
+            dapibus quis, feugiat non magna. Nulla sodales varius dolor, ut
+            feugiat purus dignissim sed. Pellentesque nisl velit, lacinia quis
+            nisi non, maximus iaculis quam.
+          </p>
+        </div>
+      </div>
+    </section>
+  </body>
+  <script src="main.js"></script>
+</html>
